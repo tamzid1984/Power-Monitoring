@@ -3,9 +3,7 @@ import pandas as pd
 
 import pickle
 import streamlit as st
-import matplotlib.pyplot as plt
-from sklearn import metrics
-import seaborn as sns
+
 
 import warnings
 warnings.filterwarnings('ignore')
