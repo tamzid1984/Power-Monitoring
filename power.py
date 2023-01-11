@@ -7,8 +7,8 @@ import streamlit as st
 
 import warnings
 warnings.filterwarnings('ignore')
-
-model = pickle.load(open(r'model.pkl', 'rb'))
+pkl_filename = "model.pkl"
+model = pickle.load(open(pkl_filename, 'rb'))
 
 def run():
     # Adding title and Image
