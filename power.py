@@ -8,6 +8,7 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn.svm import SVC
 from pandas.plotting import scatter_matrix
 from matplotlib import pyplot
+from pandas import read_csv
 
 from sklearn.model_selection import train_test_split
 from sklearn.model_selection import cross_val_score
